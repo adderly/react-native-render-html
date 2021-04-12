@@ -1,5 +1,5 @@
 {
-  "name": "react-native-render-html",
+  "name": "react-native-render-html-forked",
   "version": "4.1.2",
   "author": "Archriss",
   "license": "BSD-2-Clause",
@@ -21,7 +21,8 @@
   "peerDependencies": {
     "prop-types": ">=15.5.10",
     "react": "*",
-    "react-native": "*"
+    "react-native": "*",
+    "react-native-fast-image": "file:../react-native-fast-image/react-native-fast-image-8.0.0.tgz"
   },
   "devDependencies": {
     "babel-eslint": "8.2.2",

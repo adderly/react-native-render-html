@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 import { Image, View, Text } from 'react-native';
 import PropTypes from 'prop-types';
-import FastImage from '../../../node_modules/react-native-fast-image';
+import FastImage from 'react-native-fast-image';
 
 export default class HTMLImage extends PureComponent {
     constructor (props) {
@@ -43,7 +43,7 @@ export default class HTMLImage extends PureComponent {
         this.mounted = false;
     }
 
-    componentWillReceiveProps (nextProps) {
+    UNSAFE_componentWillReceiveProps (nextProps) {
         this.getImageSize(nextProps);
     }
 

@@ -1,5 +1,7 @@
 import React from 'react';
-import { TouchableOpacity, Text, View, WebView, Platform } from 'react-native';
+import { TouchableOpacity, Text, View, Platform } from 'react-native';
+
+import { WebView } from 'react-native-webview';
 import { _constructStyles, _getElementClassStyles } from './HTMLStyles';
 import HTMLImage from './HTMLImage';
 
